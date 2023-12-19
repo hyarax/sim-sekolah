@@ -3,7 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/example/public_html/201011450271
     - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp login.php $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
