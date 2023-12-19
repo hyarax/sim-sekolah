@@ -1,6 +1,6 @@
 <?php
 // koneksi ke database
-$conn = mysqli_connect("localhost", "root", "", "sekolah_database");
+$conn = mysqli_connect("localhost", "java2779_201011450271", "Lr4dp.990", "java2779_sim-sekolah");
 
 
 function query($query)
