@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/201011450271
+    - export DEPLOYPATH=/home/java2779/public_html/201011450271
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
